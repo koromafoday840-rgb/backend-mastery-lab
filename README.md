@@ -8,7 +8,9 @@ I started this portfolio because I wanted to see if I could actually turn my mat
 
 * **[Accumulator Logic Study](./accumulator-logic-study)**: I used this to master iterative state changes. It includes my handwritten notebook trace.
 
+* **[Student Score Logic](./dictionary-score-logic)**: This is a project where I stopped using Python shortcuts to see if I could find the highest score manually using a loop. It's my way of making sure I actually understand how the computer looks through data one step at a time.
 ##  Organization
+
 * **Modular Structure**: I organized my repository into dedicated project folders for better maintainability.
 * **Practice Lab**: A space for my original exercises and daily coding challenges.
 ## Technical Skills
