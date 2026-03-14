@@ -8,14 +8,16 @@ A Python-based utility designed to process student performance data. This projec
 * **Defensive Aggregation**: Utilizes `setdefault()` for safe dictionary initialization and `try/except` blocks to handle potential `ZeroDivisionError` during average calculations.
 * **Data Integrity**: Processes raw student records into structured averages for both individual subjects and overall performance.
 
-## Logic Validation: Mechanical Execution Trace
+## Technical Validation
+To ensure full logical transparency, I have verified both the **Data Transformation** (grouping) and **Aggregation** (averaging) phases using manual trace tables.
 
-To ensure the grouping and averaging algorithms function correctly, the system state was manually mapped through every iteration. This "mechanical autopsy" confirms that the code handles memory and variable transitions exactly as intended.
+### 1. Data Transformation Trace (Grouping Logic)
+![Trace Table 1](IMG_20260314_131636.jpg)
 
-![Manual Trace Table](IMG_20260314_131636.jpg)
+### 2. Aggregation Logic Trace (Averaging Logic)
+![Trace Table 2](IMG_20260314_155451.jpg)
 
 ## Execution Instructions
-
 Ensure you are in the project root directory, then run:
 
 ```bash
