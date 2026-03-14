@@ -1,22 +1,28 @@
-# Student Score Tracker: Dictionary-Based Aggregator
+# Student Performance Aggregator
 
-A Python-based utility designed to process student performance data. This project focuses on handling complex nested data structures and ensuring computational accuracy through manual state verification.
+A robust Python utility designed for high-integrity processing of student performance data. This implementation emphasizes structured data management, defensive programming, and algorithmic transparency.
 
 ## Technical Implementation
 
-* **Nested State Management**: Implements a dictionary-of-dictionaries structure to group multi-subject scores by student identity.
-* **Defensive Aggregation**: Utilizes `setdefault()` for safe dictionary initialization and `try/except` blocks to handle potential `ZeroDivisionError` during average calculations.
-* **Data Integrity**: Processes raw student records into structured averages for both individual subjects and overall performance.
+* **Nested State Management**: Utilizes a dynamic dictionary-of-dictionaries structure to achieve O(n) grouping of multi-subject scores.
+* **Defensive Aggregation**: Implements `setdefault()` for safe initialization and `try/except` blocks to mitigate `ZeroDivisionError` during average calculation.
+* **Computational Accuracy**: Designed to process raw tuple streams into structured, human-readable performance metrics.
 
-## Logic Validation: Mechanical Execution Trace
+## Engineering Validation: Mechanical Execution Trace
 
-To ensure the grouping and averaging algorithms function correctly, the system state was manually mapped through every iteration. This "mechanical autopsy" confirms that the code handles memory and variable transitions exactly as intended.
+To ensure computational accuracy, the system logic was subjected to a formal **Mechanical Execution Trace**. This "manual autopsy" of the data flow confirms that variable transitions and memory allocation function as intended across all test cases.
 
-![Manual Trace Table](IMG_20260314_131636.jpg)
+### 1. Data Transformation (Grouping Logic)
+Maps raw record streams into organized subject-wise buckets.
+![Grouping Trace](IMG_20260314_131636.jpg)
+
+### 2. Aggregation (Averaging Logic)
+Verifies the accumulator state (`total_sum`, `total_count`) across iteration cycles.
+![Aggregation Trace](IMG_20260314_155451.jpg)
 
 ## Execution Instructions
 
-Ensure you are in the project root directory, then run:
+Ensure you are in the project root directory, then execute the following command:
 
 ```bash
-python student-score-tracker/student_logic.py
+python student_logic.py
