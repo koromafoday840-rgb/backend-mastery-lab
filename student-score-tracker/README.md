@@ -11,6 +11,19 @@ I built this project to master Python logic from the ground up. Instead of just 
 * **Nested Dictionaries**: Creating complex data structures to store information logically.
 * **Algorithmic Thinking**: Tracing how variables change inside a loop to verify my logic.
 
+## What I Mastered
+* **Nested Dictionaries**: Creating complex data structures to store information logically.
+* **Algorithmic Thinking**: Tracing how variables change inside a loop to verify my logic.
+
+### Logic Verification: Mechanical Execution Trace
+To ensure the accuracy of the data transformation logic, I manually traced the dictionary state for all 10 records.
+
+![Manual Trace Table](17734938508965738068697120692348_07c9b4.jpg)
+
+## How to Run
+```bash
+python student-score-tracker/student_logic.p
+
 ## How to Run
 ```bash
 python student-score-tracker/student_logic.py
