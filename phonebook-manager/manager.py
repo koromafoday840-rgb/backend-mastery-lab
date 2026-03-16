@@ -5,7 +5,7 @@ while True:
     choice = input("select an option: ")
     if choice == "1":
         name = input("enter contact name: ").strip()
-        number = input("enter contact number: ").strip()
+        number = input("enter contact number for {name}: ").strip()
         phonebook[name] = number
         print(f"success: {name} saved")
     elif choice == "2":
