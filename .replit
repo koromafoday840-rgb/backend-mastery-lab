@@ -1,1 +1,4 @@
 run = "python3 profile-settings/settings.py"
+
+[agent]
+expertMode = true
