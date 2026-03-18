@@ -23,4 +23,5 @@
 - **/logic-accumulator**: Core Python logic exercises.
 - **/score-tracker**: A functional student performance tracking system.
 - **/assets**: Professional documentation and visual demos.
-
+* **/profile-settings:** * `settings.py`: A CRUD-based system for managing user preferences.
+    * `README.md`: Documentation covering the logic trace and data-type validation (Boolean/Integer handling).
