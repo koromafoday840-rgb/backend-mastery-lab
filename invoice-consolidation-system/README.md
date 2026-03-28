@@ -70,3 +70,15 @@ This program performs that consolidation automatically.
 # 🏗️ System Design
 
 This project uses a **nested dictionary structure**:
+
+---
+
+## ⚙️ Metadata & Environment
+* **Language:** Python 3.10+
+* **Dependencies:** None (Uses Python Standard Library)
+* **Environment:** Compatible with mobile-first development (GitHub Codespaces / Replit)
+
+## 🛠️ How to Run
+To execute the consolidation logic and view the formatted invoice summary:
+```bash
+python invoice-consolidation-system/invoice-system.py
