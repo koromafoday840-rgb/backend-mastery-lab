@@ -27,4 +27,8 @@
     * `README.md`: Documentation covering the logic trace and data-type validation (Boolean/Integer handling).
 * `/invoice-consolidation-system`:
     * `invoice-system.py`: Core logic for aggregating sales and merging duplicate items.
-    * `README.md`: Technical breakdown of the search-before-insert (upsert) algorithm.
+    * `README.md`: Technical breakdown of the search-before-insert (upsert) algorithm
+    * **/discount-pipeline**:
+    * `engine.py`: Core logic for a tiered pricing system.
+    * `test_pipeline.py`: Manual execution traces to verify state transitions.
+    * **Logic Note**: Implemented a modular data flow where the output of the pricing function is passed as a parameter to the tax validator. This avoids global variables and ensures the "Flow of Truth" is preserved across the stack.
