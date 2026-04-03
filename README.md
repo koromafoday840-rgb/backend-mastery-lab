@@ -11,11 +11,11 @@
 - [/] **Phase 3: Backend Basics** (Flask, API Design)
 - [ ] **Phase 4: Database Mastery** (PostgreSQL, SQL Alchemy)
 
-### 🛠 Tech Stack
-![Python](https://shields.io)
-![Flask](https://shields.io)
-![Git](https://shields.io)
-![PostgreSQL](https://shields.io)
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 
 ## 📁 Project Structure
