@@ -1,5 +1,3 @@
-# Copy and paste this into engine.py
-
 def get_discount_price(price: float, discount_percent: float) -> float:
     """
     Calculates the final price after a percentage reduction.
