@@ -16,3 +16,9 @@ def test_discount_logic():
 
 if __name__ == "__main__":
     test_discount_logic()
+    print("🧪 Running Test: 10% off $0...")
+    zero_price_result = get_discount_price(0.0, 10.0)
+    if zero_price_result == 0.0:
+        print("✅ SUCCESS: Result is $0.00")
+    else:
+        print(f"❌ FAILED: Got {zero_price_result}")
