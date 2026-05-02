@@ -1,4 +1,4 @@
-# 🚀 Backend Mastery Lab
+# 🚀 Python Foundations Lab
 ### My Journey to Senior Python Engineer
 
 > "Code is not just about making things work; it's about making things maintainable."
